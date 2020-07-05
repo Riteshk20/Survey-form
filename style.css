@@ -1,0 +1,113 @@
+        body {
+       
+          
+            background-image: url(https://cdn.pixabay.com/photo/2020/07/01/17/50/torrent-5360379_1280.jpg);
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .container {
+
+            width: 300px;
+            margin: auto;
+            overflow: hidden;
+            background-color: aliceblue;
+            padding: 0.5em;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 20px;
+        }
+
+        .facebook {
+            background-color: rgb(39, 39, 109);
+            border: none;
+            border-radius: 3px;
+            padding: 4px;
+        }
+
+        .facebook a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .signin {
+            background-color: green;
+            width: 90px;
+            height: 25px;
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+            color: aliceblue;
+        }
+        @media only screen and (max-width:500px) {
+            body{
+                background-size: 100vw 100vh;
+
+            }
+            .container {
+
+                width: 250px;
+
+                overflow: hidden;
+                padding: 0.5em;
+
+            }
+
+            .container h1 {
+                font-size: 30px;
+            }
+
+            .facebook {
+                font-size: 10px;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+
+            .signin {
+
+                width: 100px;
+                height: 30px;
+
+
+                padding: 10px;
+            }
+        }
+
+        @media only screen and (min-width:750px) {
+            .container {
+
+                width: 400px;
+
+                overflow: hidden;
+                padding: 1em;
+
+            }
+
+            .container h1 {
+                font-size: 40px;
+            }
+
+            .facebook {
+                font-size: 20px;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+
+            .signin {
+
+                width: 100px;
+                height: 30px;
+
+
+                padding: 10px;
+            }
+        }
